@@ -35,7 +35,7 @@ st.markdown("<h3 style='text-align: center; color: green;'>The dashboard will vi
 st.markdown('______')
 
 #df= pd.read_csv(r'C:\Users\sayan\Desktop/covid_19_india.csv')
-df= pd.read_csv(r'E:\Trim III\COVID-19/covid_19_india.csv')
+df= pd.read_csv('/covid_19_india.csv')
 
 
 df.drop(['ConfirmedIndianNational','ConfirmedForeignNational'],axis=1,inplace=True)
@@ -276,7 +276,7 @@ st.markdown('______')
 #############################################################################  Vaccine ##################################################################################
 
 #df_vaccine_statewise = pd.read_csv(r'C:\Users\sayan\Desktop/covid_vaccine_statewise.csv')
-df_vaccine_statewise = pd.read_csv(r'E:\Trim III\COVID-19/covid_vaccine_statewise.csv')
+df_vaccine_statewise = pd.read_csv('/covid_vaccine_statewise.csv')
 
 ########  Total vaccinated  #########
 
